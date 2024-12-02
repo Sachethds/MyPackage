@@ -4,7 +4,7 @@
 import Foundation
 import UIKit
 
-extension UIViewController{
+public extension UIViewController{
     func transition(){
         let sb = UIStoryboard(name: "Main", bundle: nil)
         let vc = sb.instantiateViewController(withIdentifier: "SampleViewController")
