@@ -6,7 +6,7 @@ import UIKit
 
 public extension UIViewController{
     func transition(){
-        let sb = UIStoryboard(name: "Main", bundle: nil)
+        let sb = UIStoryboard(name: "PackageStoryBoard", bundle: nil)
         let vc = sb.instantiateViewController(withIdentifier: "SampleViewController")
         self.navigationController?.pushViewController(vc, animated: true)
     }
